@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown的常用编写语法]]></title>
+    <url>%2F2018%2F06%2F21%2FMarkdown%E7%9A%84%E5%B8%B8%E7%94%A8%E7%BC%96%E5%86%99%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[我是第一次看到Markdown，之前一点都不了解。先说一下Markdown，Markdown 是 2004 年由 John Gruberis 设计和开发的纯文本格式的语法.通过简单的标记语法，它可以使普通文本内容具有一定的格式，在线论坛编写消息和快速创建富文本文档的文本编辑器都非常流行使用 Markdown 格式。 Markdown快速入门这里贴一个网站，里面有很详细的语法和实例。Markdown 语法说明 下面说一下比较常用的语法，很容易记，掌握后写文章没有一点问题。 标题的写法H1 :# Header 1H2 :## Header 2H3 :### Header 3H4 :#### Header 4H5 :##### Header 5H6 :###### Header 6 前面带#号，后面带文字，分别表示h1-h6，而且h1下面会有一条横线，注意#号后面有空格 无序列表 1 2 3 1 2 3 1 2 3 代码123456789* 1* 2* 3+ 1+ 2+ 3- 1- 2- 3 无序列表可以用 * ， + ，- 号来创建，实际都是转换成了ul&gt;li。 有序列表 列表0 列表1 列表2 列表3 列表4 列表5 代码1234560. 列表01. 列表12. 列表23. 列表34. 列表45. 列表5 区块引用区块引用的方法是在段落前面加一个 &gt; 号，然后样式就是本篇文章第一段那个样子。 分割线 在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。 超链接[文字](链接地址) 链接的文字放在[ ]中，链接地址放在随后的( )中 转义符使用反斜杠 \ 删除线删除线 代码 ~~删除线~~ 代码框单行代码框使用 ` 一个反引号包裹住多行代码块使用 ``` 三个反引号包裹住 图片![alt](地址) 前面一个感叹号，后面没有空格，接着方括号内是图片的alt属性，圆括号内是图片的地址。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客搭建过程]]></title>
+    <url>%2F2018%2F06%2F21%2FHexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[这个博客是Github Pages + Hexo搭建的，使用Hexo框架在本地调试好后上传到GitHub，Hexo是一个静态博客框架，提供很多主题。第一遍做的时候选择了一个简单的主题，特别简约，连图片都没有放的地方，就更换成了现在的这个主题。 博客搭建的过程我是按照网上的教程搭建的，按照上面写的一步步操作，写的很详细。一开始以为很难，但是全部操作下来没有碰到什么难题，贴一下链接。 Github Pages + Hexo搭建博客一Github Pages + Hexo搭建博客二Github Pages + Hexo搭建博客三 顺便贴一下常用的几个命令 $ hexo new &quot;文章名字&quot; 新建文章$ hexo clean 删除public目录 清除缓存$ hexo generate 生成静态页面至public目录$ hexo server 开启预览访问端口（默认端口4000，’ctrl + c’关闭） 如果没有问题就可以提交了$ hexo deploy 将.deploy目录部署到GitHub 博客上传与存放GitHub有免费的空间可以存放项目，而且还提供免费的域名，当然也可以绑定自己的域名，这些在前面贴出的教程里都有讲述。一开始我是将博客上传到github上面的，但是打开速度不太理想，然后就放到了自己的云主机上面，之前弄的是一个地方论坛，看这个博客的域名就能猜想到，后来想想还是做一个自己的博客吧，比较有意义。把网站放到云主机的方法非常简单，只需要将生成在public文件夹下面的所有文件上传到云主机的wwwroot文件夹里就可以了。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[阳光和煦的博客：欢迎你]]></title>
     <url>%2F2018%2F06%2F20%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[很多时候用到好用的插件或者惊艳的代码，总会找个文件夹保存下来，久而久之，不仅弄的非常乱而且还没有分类，在需要的时候又要花时间去找，所以就花了一点时间弄了一个自己的博客。 在这里记录一些值得纪念的事情，分享有趣的图片和值得推荐的电影。当然，最重要的还是代码了，作为一个前端菜鸟，我会把工作中遇到的坑还有学习时容易忘记的知识点写到这里。 总之，这里记录我生活和工作中的点点滴滴。]]></content>
+    <content type="text"><![CDATA[很多时候用到好用的插件或者惊艳的代码，总会找个文件夹保存下来，久而久之，不仅弄的非常乱而且还没有分类，在需要的时候又要花时间去找，所以就花了一点时间弄了一个自己的博客。 在这里写一些值得纪念的事情，分享有趣的图片和值得推荐的电影。当然，最重要的还是代码了，作为一个前端Coder，我会把工作中遇到的坑还有学习时容易忘记的知识点写到这里，没事翻出来看看，加深印象。 总之，这里记录我生活和工作中的点点滴滴。]]></content>
       <categories>
         <category>自语</category>
       </categories>
@@ -12,5 +28,10 @@
     <title><![CDATA[About Me]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[关于我不谈心不会修电脑喜欢安静，不善主动交际。无聊时游戏，闲时多看书，做个有趣的人 请多指教主页: 阳光和煦GitHub: 阳光和煦微博: 阳光和煦网易云音乐: 阳光和煦QQ: [ 1072469269 ]Location: [ 中国 石家庄 ]]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[gallery]]></title>
+    <url>%2Fgallery%2Findex.html</url>
+    <content type="text"></content>
   </entry>
 </search>
